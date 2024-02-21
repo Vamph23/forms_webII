@@ -15,9 +15,9 @@ body {
   max-width: 600px;
   margin: 50px 20px;
   padding: 40px 40px;
-  background-color: #ffffff; /* branco */
+  background-color: #f5edae; /* branco */
   border-radius: 20px;
-  box-shadow: 0 0 10px rgba(51, 0, 67, 0.2);
+  box-shadow: 0 0 10px rgba(240, 146, 5, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,7 +63,7 @@ textarea {
   background-color: rgba(0, 0, 0, 0.2); /* roxo com transparência */
   font-size: 14px;
   font-family: "Poppins", sans-serif;
-  box-shadow: inset 0 1px 2px rgb(85, 1, 62);
+  box-shadow: inset 0 1px 2px rgb(85, 18, 1);
   transition: border-color 0.3s ease;
 }
 
@@ -80,7 +80,7 @@ textarea:focus {
 
 
 .btn {
-  background-color: #722b95d2; /* roxo */
+  background-color: #925800; /* roxo */
   color: #ffffff; /* branco */
   width: 100%; /* Ocupa toda a largura do container */
   padding: 14px;

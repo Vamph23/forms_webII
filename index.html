@@ -15,8 +15,8 @@
   <body>
     <div class="container">
       <header>
-        <img src="/assets/logo.png" alt="Logo" class="logo" />
-        <h1 class="heading">Formulário Desenvolvimento WEB II</h1>
+        <img src="/assets/logo 4.jpg" alt="Logo" class="logo" />
+        <h1 class="heading">Vamos começar pretinha!</h1>
       </header>
       <form action="#" method="post" class="form">
         <div class="form-group">
@@ -67,12 +67,18 @@
 
         try {
           // Faz uma requisição para a sua API
-          await fetch("INSIRA O LINK DA SUA API AQUI", {
+          await fetch("https://minha-primeira-api-s24i.onrender.com/formulario", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
             },
             body: JSON.stringify(dados),
+          }).then((Response)=>{
+            if(Response.ok){
+              alert("Formulário enviado com sucesso!");
+            }else{
+              alert("Erro ao enviar formulário!")
+            }
           });
         } catch (error) {
           console.log(error);
